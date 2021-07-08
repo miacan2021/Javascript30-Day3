@@ -1,0 +1,30 @@
+:root {
+  --base:#F7DAD9;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+    text-align: center;
+    background: #968C83;
+    color: #FFF5EA;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  img {
+    width: 800px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+
+  .hl {
+    color: var(--base);
+  }
